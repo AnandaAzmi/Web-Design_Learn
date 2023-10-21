@@ -1,0 +1,22 @@
+.judul {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(43, 161, 161);
+}
+table {
+  width: 100%;
+}
+th {
+  height: 30px;
+}
+td {
+  height: 30px;
+  vertical-align: center;
+  text-align: center;
+}
+.row1 {
+  background-color: aqua;
+}
+.row2:hover {
+  background-color: rgb(219, 255, 243);
+}

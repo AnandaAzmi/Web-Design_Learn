@@ -1,0 +1,87 @@
+.Borobudur {
+  border: 2px solid blue;
+  padding: 10px;
+  padding-left: 15px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabel1 {
+  width: 100%;
+}
+.gambar1 {
+  width: 200px;
+  margin-right: 1px;
+  float: right;
+  margin-left: 10px;
+}
+.Prambanan {
+  border: 2px solid blue;
+  padding: 10px;
+  overflow: hidden;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabel2 {
+  width: 100%;
+}
+.gambar2 {
+  width: 200px;
+  margin-right: 10px;
+  float: left;
+  margin-left: 1px;
+}
+
+.Bromo {
+  border: 2px solid blue;
+  padding: 10px;
+  overflow: hidden;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabel3 {
+  width: 100%;
+}
+.gambar3 {
+  width: 200px;
+  margin-right: 10px;
+  float: none;
+  margin-left: 1px;
+}
+
+.Bajo {
+  border: 2px solid blue;
+  padding: 10px;
+  overflow: hidden;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabel4 {
+  width: 100%;
+}
+.gambar4 {
+  width: 200px;
+  margin-right: 10px;
+  float: right;
+  margin-left: 10px;
+}
+.Ampat {
+  border: 2px solid blue;
+  padding: 10px;
+  overflow: hidden;
+  padding-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabel5 {
+  width: 100%;
+}
+.gambar5 {
+  width: 200px;
+  margin-right: 10px;
+  float: right;
+  margin-left: 10px;
+}

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header*/
+header {
+  background-color: #599181;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/*Membuat kolom yang bersebelahan*/
+nav {
+  float: left;
+  width: 30%;
+  height: 600px;
+  background: #90baae;
+}
+/* stye the list inside the menu*/
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: aliceblue;
+  height: 300px;
+}
+/*Elemen <section> dalam HTML digunakan untuk mengelompokkan konten*/
+/*clear float after the column*/
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #599181;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+/*Tata letak responsif - membuat dua kolom/kotak bertumpuk satu sama lain, bukan bersebelahan, pada layar kecil*/
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+/*Elemen <aside> dalam HTML digunakan untuk menyisipkan konten yang berhubungan, namun bukan bagian utama dari halaman web.*/
+aside {
+  float: right;
+  width: 30%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  height: 300px;
+  font-size: 16px;
+}
